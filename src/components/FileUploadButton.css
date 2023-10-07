@@ -1,0 +1,19 @@
+.container {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 3em;
+  min-height: 2em;
+  background-color: black;
+}
+
+label {
+  color: white;
+  font-size: 1.2rem;
+}
+
+input[type="file"] {
+  display: none;
+}
